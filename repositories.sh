@@ -4,17 +4,17 @@ declare -A https
 repositories[everparse]=git@github.com:project-everest/everparse.git
 https[everparse]=https://github.com/project-everest/everparse.git
 
-repositories[FStar]=git@github.com:FStarLang/FStar.git
-https[FStar]=https://github.com/FStarLang/FStar.git
+repositories[FStar]=git@github.com:mtzguido/FStar.git
+https[FStar]=https://github.com/mtzguido/FStar.git
 
-repositories[karamel]=git@github.com:FStarLang/karamel.git
-https[karamel]=https://github.com/FStarLang/karamel.git
+repositories[karamel]=git@github.com:mtzguido/karamel.git
+https[karamel]=https://github.com/mtzguido/karamel.git
 
-repositories[steel]=git@github.com:FStarLang/steel.git
-https[steel]=https://github.com/FStarLang/steel.git
+repositories[steel]=git@github.com:mtzguido/steel.git
+https[steel]=https://github.com/mtzguido/steel.git
 
-repositories[hacl-star]=git@github.com:hacl-star/hacl-star.git
-https[hacl-star]=https://github.com/hacl-star/hacl-star.git
+repositories[hacl-star]=git@github.com:mtzguido/hacl-star.git
+https[hacl-star]=https://github.com/mtzguido/hacl-star.git
 
 repositories[merkle-tree]=git@github.com:hacl-star/merkle-tree.git
 https[merkle-tree]=https://github.com/hacl-star/merkle-tree.git
