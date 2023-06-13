@@ -16,5 +16,5 @@ hashes[mitls-fstar]=208725c811e965007d29dce57df05f25550fd1b5
 branches[mitls-fstar]=master
 hashes[MLCrypto]=190250bbb8f16e7c3f6a8d443b13600ada4fbe79
 branches[MLCrypto]=master
-hashes[steel]=c349e9f78e5308c2cc5d71c70a75cb9ea6b099b7
+hashes[steel]=8999e4142bc2f5d44863fb67d30fd489fb09ae4a
 branches[steel]=migratev1v2
