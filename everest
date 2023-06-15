@@ -1019,22 +1019,28 @@ do_test () {
   separator
   blue "Running tests (commands shown below)"
   set -x
-  # steel
-  $MAKE -C steel test $make_opts
-  # karamel
-  LD_LIBRARY_PATH= $MAKE -C karamel/test $make_opts everything
-  # evercrypt
-  # LD_LIBRARY_PATH is already taken care of by the HACL* Makefile
-  LD_LIBRARY_PATH= $MAKE -C hacl-star test $make_opts
-  # everquic-crypto
-  make -C merkle-tree $make_opts test
-  # everparse
-  $MAKE -C everparse $make_opts test
-  # everquic-crypto
-  make -C everquic-crypto $make_opts test
   # mitls; note: these tests make assumption on their current working directory
   (cd mitls-fstar/src/tls && $MAKE $make_opts test)
   (cd mitls-fstar/apps/cmitls && $MAKE $keep_going_opt test)
+
+  # everquic-crypto
+  make -C everquic-crypto $make_opts test
+
+  # everparse
+  $MAKE -C everparse $make_opts test
+
+  # everquic-crypto
+  make -C merkle-tree $make_opts test
+
+  # evercrypt
+  # LD_LIBRARY_PATH is already taken care of by the HACL* Makefile
+  LD_LIBRARY_PATH= $MAKE -C hacl-star test $make_opts
+
+  # karamel
+  LD_LIBRARY_PATH= $MAKE -C karamel/test $make_opts everything
+
+  # steel
+  $MAKE -C steel test $make_opts
   # (cd mitls-fstar/apps/quicMinusNet && $MAKE $keep_going_opt test)
   set +x
   separator
