@@ -7,8 +7,8 @@ https[everparse]=https://github.com/project-everest/everparse.git
 repositories[FStar]=git@github.com:mtzguido/FStar.git
 https[FStar]=https://github.com/mtzguido/FStar.git
 
-repositories[karamel]=git@github.com:mtzguido/karamel.git
-https[karamel]=https://github.com/mtzguido/karamel.git
+repositories[karamel]=git@github.com:FStarLang/karamel.git
+https[karamel]=https://github.com/FStarLang/karamel.git
 
 repositories[steel]=git@github.com:mtzguido/steel.git
 https[steel]=https://github.com/mtzguido/steel.git
